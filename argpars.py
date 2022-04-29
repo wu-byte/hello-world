@@ -1,5 +1,5 @@
 import argparse
-
+import numpy as np
 def main():
     parser = argparse.ArgumentParser(description="Demo of argparse")
     parser.add_argument('-n','--name', default=' Li ')

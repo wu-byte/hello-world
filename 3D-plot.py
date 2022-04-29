@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+import cv2 as cv
 radius=1
 Vz=1
 t=np.linspace(0,10,1000,endpoint=False)
